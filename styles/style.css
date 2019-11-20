@@ -21,3 +21,140 @@
     font-style: normal;
 
 }
+
+body{
+    font-family:arimoregular, sans-serif ;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size:24px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+tr{
+    height: 164px;
+    background: #f2f2f2;
+}
+
+th, td{
+    box-shadow: inset 0px -3px 3px -1px hsl(0, 0%, 82%);
+    width: 157px;
+    color: #848484;
+    vertical-align: middle;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+i{
+    padding-bottom: 13px;
+}
+
+.tb{
+    align-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.7);
+    box-sizing: border-box;
+}
+
+.border{
+    background: #3a4965;
+    padding: 22px 22px;
+    float: left;
+}
+
+.stndrd, .ultmt, .prm{
+    color: white;
+}
+
+.stndrd{
+    box-shadow: inset 0px -1px 7px -1px rgba(130,125,130,1);
+    background:#89c331 ;
+}
+
+.ultmt{
+   box-shadow: inset 0px -1px 7px -1px rgba(130,125,130,1);
+    background: #f04a56;
+}
+
+.prm{
+    box-shadow: inset 0px -1px 7px -1px rgba(130,125,130,1);
+    background: #20807c;
+}
+
+.titles{
+    height: 110px;
+
+}
+
+.choose{
+    background: #fafafa;
+    width: 198px;
+}
+.dwn{
+    padding-top: 12px;
+}
+
+.dol{
+    font-family: arimobold;
+    font-size: 36px;
+}
+
+.mon{
+    position: relative;
+    font-family: arimobold;
+    font-size: 18px;
+    top:4px;
+}
+
+.per{
+   padding-top:15px;
+   padding-left: 6px;
+}
+
+.price{
+    margin: 15px auto;
+    position: relative;
+    display: inline-flex;
+}
+
+td:nth-child(2n){
+    background: #e3e3e3;
+}
+
+th:nth-child(2n){
+    background: #e3e3e3;
+}
+button{
+    height: 40px;
+    width:145px ;
+    border-radius: 4px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    outline: none;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    background: #484848;
+    box-shadow: inset 0px -8px 0px 0px rgba(64,64,64,1);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: none;
+    margin-top: 8px;
+}
+
